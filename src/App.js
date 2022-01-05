@@ -1,5 +1,4 @@
 import './App.css';
-import {Svg1} from './subcomponents/AllSvg';
 
 function App() {
   return (
