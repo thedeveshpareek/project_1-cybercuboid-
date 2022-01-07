@@ -11,18 +11,18 @@ export const About = () => {
                 </div>
             
                 <div style={{width:'30%', paddingTop:'20px',}}>
-                        <div style={{display:'flex',justifyContent:'flex-start',marginLeft:'5px',}}  >
+                        <div style={{display:'flex',justifyContent:'flex-start',marginLeft:'5px', color:'white',fontWeight:'normal',}}  >
                             <h1>About Project</h1>
                         </div>
                         <div style={{display:'flex',justifyContent:'left',paddingTop:'0px',}}>
-                            <p style={{textAlign:'justify',}}>
+                            <p style={{textAlign:'justify',color:'white', fontWeight:'normal',}}>
                                 We have you covered no matter where you are located.
                                 All you neeed a active internet connection and a phone or computer.
                             </p>
                         </div>
                     <div>
-                        <h1 style={{display:'flex',justifyContent:'left',}}>Character</h1>
-                        <p style={{textAlign:'justify',}}>
+                        <h1 style={{display:'flex',justifyContent:'left', color:'white',fontWeight:'normal',}}>Character</h1>
+                        <p style={{textAlign:'justify',color:'white',fontWeight:'normal',}}>
                             We have you covered no matter where you are located.
                             All you neeed a active internet connection and a phone or computer.
                         </p>
@@ -30,45 +30,44 @@ export const About = () => {
                 </div>
            </div>
            <div>
-               <h1 style={{display:'flex',justifyContent:'Center', paddingTop:'50px',}}>Our Services</h1>
+               <h1 style={{display:'flex',justifyContent:'Center',color:'white', paddingTop:'50px',fontWeight:'bold'}}>Our Services</h1>
            </div>
            <div  style={{display:'flex',
                 flexDirection:'row',justifyContent:'center',}}>
-                    <div style={{width:'40%'}}>
+                    <div style={{width:'20%'}}>
                          <img src='/images/n4.png' alt="" style={{width:'50%',}}/>
-                   <div>
+                   <div style={{color:'white',}}>
                         <span>Reduce Expenses</span>
                    </div>
                    <div>
-                        <p style={{textAlign:'center',}}>We help reduce your fees and increase
+                        <p style={{textAlign:'center',color:'white',}}>We help reduce your fees and increase
                         overall revenue</p>
                    </div>
                </div>
-               <div style={{width:'40%'}}>
+               <div style={{width:'20%'}}>
                     <div>
                         <img src='/images/n4.png' alt="" style={{width:'50%',}}/>
                    </div>
                    <div>
-                        <span>Virtual Ofices</span>
+                        <span style={{color:'white',}}>Virtual Ofices</span>
                    </div>
                    <div>
-                        <p style={{textAlign:'center',}}>
+                        <p style={{textAlign:'center', color:'white',}}>
                         You can access our platform online from 
                         anywhere in the world</p>
                    </div>
                </div>
-               <div style={{width:'40%'}}>
+               <div style={{width:'20%'}}>
                     <div>
                         <img src='/images/n4.png' alt="" style={{width:'50%',}}/>
                    </div>
-                   <div>
-                        <span>Premium Benefits</span>
+                   <div >
+                        <span style={{color:'white',}}>Premium Benefits</span>
                    </div>
                    <div>
-                        <p style={{textAlign:'center',}}>
-                        You can access our platform 
-                        online from anywhere 
-                        in the world</p>
+                        <p style={{textAlign:'center', color:'white',}}>
+                       Unlock our special benefit card
+                       that return 5% cashback</p>
                    </div>
                </div>
            </div>
