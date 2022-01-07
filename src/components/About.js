@@ -34,36 +34,43 @@ export const About = () => {
            </div>
            <div  style={{display:'flex',
                 flexDirection:'row',justifyContent:'center',}}>
-               <div style={{width:'60%'}}>
-                   <img src='/images/n4.png' alt="" style={{width:'20%',}}/>
+                    <div style={{width:'40%'}}>
+                         <img src='/images/n4.png' alt="" style={{width:'50%',}}/>
                    <div>
                         <span>Reduce Expenses</span>
                    </div>
                    <div>
-                        <p style={{textAlign:'justify',}}>We help reduce your fees and increase
+                        <p style={{textAlign:'center',}}>We help reduce your fees and increase
                         overall revenue</p>
                    </div>
                </div>
-               <div>
-                   <img src='/images/n4.png' alt="" style={{width:'20%',}}/>
-                   <div>
-                        <span>Reduce Expenses</span>
-                   </div>
-                   <div>
-                        <p style={{textAlign:'justify',}}>We help reduce your fees and increase
-                        overall revenue</p>
-                   </div>
-               </div>
-               <div> 
-                    <img src='/images/n4.png' alt="" style={{width:'20%',}}/>
+               <div style={{width:'40%'}}>
                     <div>
-                        <span>Reduce Expenses</span>
+                        <img src='/images/n4.png' alt="" style={{width:'50%',}}/>
                    </div>
                    <div>
-                        <p style={{textAlign:'justify',}}>We help reduce your fees and increase
-                        overall revenue</p>
+                        <span>Virtual Ofices</span>
                    </div>
-                </div>
+                   <div>
+                        <p style={{textAlign:'center',}}>
+                        You can access our platform online from 
+                        anywhere in the world</p>
+                   </div>
+               </div>
+               <div style={{width:'40%'}}>
+                    <div>
+                        <img src='/images/n4.png' alt="" style={{width:'50%',}}/>
+                   </div>
+                   <div>
+                        <span>Premium Benefits</span>
+                   </div>
+                   <div>
+                        <p style={{textAlign:'center',}}>
+                        You can access our platform 
+                        online from anywhere 
+                        in the world</p>
+                   </div>
+               </div>
            </div>
 
         </>
