@@ -1,9 +1,10 @@
 import './App.css';
+import {Hero} from './components/Deafult';
 
 function App() {
   return (
     <div className="App">
-        started Here
+      <Hero />
     </div>
   );
 }
