@@ -42,7 +42,7 @@ const About = () => {
                     onMouseEnter={() => {console.log("Event:MouseEnter");setbgcolor1("blue");}}
                    onMouseLeave={() => {console.log("Event:MouseLeave");setbgcolor1("#A020F0")}}>
                         <div style={{padding:'10px',}}>
-                         <img src='/images/n4.png' alt="" style={{width:'50%',}}/>
+                         <img src='/images/n4.png' alt="" style={{width:'40%',}}/>
                         </div>
                         <div style={{color:'white',}}>
                                 <h3 style={{fontWeight:'bold',}}>Reduce Expenses</h3>

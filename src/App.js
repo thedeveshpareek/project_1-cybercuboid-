@@ -10,6 +10,7 @@ function App() {
       <br/>
       <Ourtransaction/>
       <br/>
+      <Whitepaper/>
     </div>
   );
 }
