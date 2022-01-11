@@ -1,10 +1,12 @@
 import './App.css';
-import { About } from './components/About/About';
+import { Hero ,About} from './components/Deafult';
 
 function App() {
   return (
     <div className="App">
-        <About/>
+      <Hero />
+      <br/>
+      <About/>
     </div>
   );
 }

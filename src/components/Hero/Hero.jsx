@@ -1,26 +1,51 @@
 import React from 'react'
-// import Header from '../Header/Header'
-import styled from 'styled-components'
-import Particle from '../../subcomponents/Particle';
+import Header from '../Header/Header'
 
-const Box = styled.div`
-background-image : url('images/banner.png');
-background-size: cover;
-width: 100%;
-height:100vh;
-position: relative;
-`
+const styleDiv = {
+    backgroundImage : 'url(images/banner.png)',
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    height: '100vh',
+    width: '100%',
+    backgroundColor : 'transparent',
+    color: '#fff',
+    border: 'none',
+    padding : '15px 0'
+}
 
+const StyleText = {
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center',
+    textAlign: 'center',
+    padding: '0 15px',
+}
+
+const StyleHead = {
+    padding: '0',
+} 
 
 const Hero = () => {
     return (
-        <>
-            <Box>
-                <Particle value={200} value_area={1000} />
-            </Box>
-            <h1>Hello</h1>
-            <p className="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.</p>
-        </>
+        <div className="hero" style={styleDiv}>
+            <Header style={StyleHead}/>
+            <div className="hero-text-container" style={StyleText} >
+                <div className="hero-text-1">
+                    <h1 className="hero-text-1-h1">
+                        Virtal Banking Made Easy
+                    </h1>
+                </div>
+                <div className="hero-text-2">
+                    <h3 className="hero-text-2-h2-1">
+                        SignUp For A New Account Today and Get <strong>$250</strong>
+                    </h3>
+                    <h3 className="hero-text-2-h2-2">
+                        in credit towards your Next Investment
+                    </h3>
+                </div>
+            </div>
+        </div>
     )
 }
 

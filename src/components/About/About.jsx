@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-export const About = () => {
+const About = () => {
     return (
         <>
             <div style={{display:'flex',
@@ -75,3 +75,5 @@ export const About = () => {
         </>
     )
 }
+
+export default About;
