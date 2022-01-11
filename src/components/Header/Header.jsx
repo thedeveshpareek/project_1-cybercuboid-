@@ -24,7 +24,16 @@ const styleNav = {
     gap : '15px',
 }
 
-
+const styleBtn = {
+    backgroundColor: 'green',
+    color: '#fff',
+    border: 'none',
+    padding: '15px',
+    borderRadius: '20px',
+    fontSize: '1em',
+    fontWeight: 'bold',
+    cursor: 'pointer',
+}
 
 function Header() {
     return (
@@ -64,7 +73,7 @@ function Header() {
                     </div>
             </div>
             <div className="Sign-in-container">
-                <button className="Sign-in-button">
+                <button className="Sign-in-button" style={styleBtn}>
                     {/* <NavLink to="/SignIn" className="Sign-in-link"> */}
                         Sign In
                     {/* </NavLink> */}
