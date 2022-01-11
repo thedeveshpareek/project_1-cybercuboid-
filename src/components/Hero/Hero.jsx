@@ -10,16 +10,18 @@ const styleDiv = {
     backgroundColor : 'transparent',
     color: '#fff',
     border: 'none',
-    padding : '15px 0'
+    padding : '15px 0',
 }
 
 const StyleText = {
     display: 'flex',
+    flex : 'center',
     flexDirection: 'column',
     justifyContent: 'center',
-    alignItems: 'center',
-    textAlign: 'center',
-    padding: '0 15px',
+    // alignItems: 'center',
+    // textAlign: 'center',
+    // padding: '0 0',
+    marginTop: '70px',
 }
 
 const StyleHead = {
