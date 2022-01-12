@@ -31,15 +31,15 @@ grid-template-columns: repeat(auto-fill,
 						minmax(195px, .5fr));
 grid-gap: 20px;
 
-@media (max-width: 1000px) {
-	grid-template-columns: repeat(auto-fill,
-						minmax(195px, .5fr));
-}
+// @media (max-width: 1000px) {
+// 	grid-template-columns: repeat(auto-fill,
+// 						minmax(195px, .5fr));
+// }
 `;
 
 export const FooterLink = styled.a`
 color: #fff;
-margin-bottom: 20px;
+margin-bottom: 10px;
 font-size: 12px;
 text-decoration: none;
 
