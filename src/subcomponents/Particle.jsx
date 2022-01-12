@@ -2,7 +2,7 @@ import React from 'react'
 import Particles from 'react-particles-js'
 import styled from 'styled-components'
 
-import configLight from "../config/particlesjs-config-light.json";
+import configLight from "../config/particlesjs-config.json";
 
 const Box = styled.div`
 position: absolute;
@@ -15,7 +15,7 @@ z-index:0;
 const Particle = () => {
     return (
         <Box>
-            <Particles params={configLight}  style = {{position: 'absolute', top: 0, left: 0, width: '100%', height: '100%'}} />
+            <Particles params={configLight} />
         </Box>
     )
 }

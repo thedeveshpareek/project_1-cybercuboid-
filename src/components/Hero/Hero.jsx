@@ -1,13 +1,14 @@
 import React from 'react'
 import Header from '../Header/Header'
+// import Particle from '../../subcomponents/Particle'
 
 const styleDiv = {
+    backgroundColor: 'transparent',
     backgroundImage : 'url(images/banner.png)',
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     height: '100vh',
     width: '100%',
-    backgroundColor : 'transparent',
     color: '#fff',
     border: 'none',
     padding : '15px 0',
@@ -18,9 +19,6 @@ const StyleText = {
     flex : 'center',
     flexDirection: 'column',
     justifyContent: 'center',
-    // alignItems: 'center',
-    // textAlign: 'center',
-    // padding: '0 0',
     marginTop: '70px',
 }
 
@@ -31,6 +29,7 @@ const StyleHead = {
 const Hero = () => {
     return (
         <div className="hero" style={styleDiv}>
+            {/* <Particle /> */}
             <Header style={StyleHead}/>
             <div className="hero-text-container" style={StyleText} >
                 <div className="hero-text-1">

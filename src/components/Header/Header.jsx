@@ -1,7 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
+import { Link, animateScroll as scroll } from "react-scroll";
 
-const Link = styled.a`
+const Link1 = styled(Link)`
 color: #fff;
 &:hover {
 	color: green;
@@ -18,6 +19,7 @@ const styleDiv = {
     display: 'flex',
     justifyContent: 'space-around',
     alignItems: 'center',
+    postion: 'fixed',
 }
 
 const LogoStyle = {
@@ -49,43 +51,43 @@ function Header() {
         <div className="header" style={styleDiv}>
             <div className="Logo-container" style={LogoStyle}>
                 <h1 className="Logo">
-                    <Link href="#Hero">
+                    <Link1 href="#Hero">
                         Project
-                    </Link>
+                    </Link1>
                 </h1>
             </div>
             <div className="Nav-container" style={styleNav}>
-                    <div className="Nav-item-1">
-                        <Link href="#About">
+                    <div className="Nav-1">
+                        <Link1 activeClass="active" to="#About" spy={true} smooth={true} offset={-70} duration={500}>
                             About
-                        </Link>
+                        </Link1>
                     </div>
                     <div className="Nav-item-2">
-                        <Link href="#whitepaper">
+                        <Link1 activeClass="active" to="#whitepaper" spy={true} smooth={true} offset={-70} duration={500}>
                             White Paper
-                        </Link>
+                        </Link1>
                     </div>
                     <div className="Nav-item-3">
-                        <Link href="#ourtransaction">
+                        <Link1 activeClass="active" to="#Tokenmics" spy={true} smooth={true} offset={-70} duration={500}>
                             Tokenmics
-                        </Link>
+                        </Link1>
                     </div>
                     <div className="Nav-item-4">
-                        <Link href="#ourteam">
+                        <Link1 activeClass="active" to="#Roadmap" spy={true} smooth={true} offset={-70} duration={500}>
                             Roadmap
-                        </Link>
+                        </Link1>
                     </div>
                     <div className="Nav-item-5">
-                        <Link href="#signup">
+                        <Link1 activeClass="active" to="#Team" spy={true} smooth={true} offset={-70} duration={500}>
                             Sign Up
-                        </Link>
+                        </Link1>
                     </div>
             </div>
             <div className="Sign-in-container">
                 <button className="Sign-in-button" style={styleBtn} >
-                        <Link href="#signin">
+                        <Link1 activeClass="active" to="#Team" spy={true} smooth={true} offset={-70} duration={500}>
                             Sign In
-                        </Link>
+                        </Link1>
                 </button>
             </div>
         </div>
