@@ -4,6 +4,7 @@ import Header from './Header/Header';
 import Hero from './Hero/Hero';
 import Ourtransaction from './Ourtransaction/Ourtransaction';
 import Whitepaper from './Whitepaper/Whitepaper';
+import Tokendistribution from './Tokendistribution/Tokendistribution';
 
 
 export {
@@ -12,5 +13,6 @@ export {
     Header,
     Hero,
     Ourtransaction,
-    Whitepaper
+    Whitepaper,
+    Tokendistribution
 }

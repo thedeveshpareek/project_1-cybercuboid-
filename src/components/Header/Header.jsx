@@ -1,5 +1,14 @@
 import React from 'react'
-// import {NavLink} from 'react-router-dom'
+import styled from 'styled-components'
+
+const Link = styled.a`
+color: #fff;
+&:hover {
+	color: green;
+	transition: 200ms ease-in;
+}
+`;
+
 
 const styleDiv = {
     backgroundColor: 'transparent',
@@ -25,7 +34,7 @@ const styleNav = {
 }
 
 const styleBtn = {
-    backgroundColor: 'green',
+    backgroundColor: 'wheat',
     color: '#fff',
     border: 'none',
     padding: '15px',
@@ -40,43 +49,43 @@ function Header() {
         <div className="header" style={styleDiv}>
             <div className="Logo-container" style={LogoStyle}>
                 <h1 className="Logo">
-                    {/* <NavLink to="/"> */}
+                    <Link href="#Hero">
                         Project
-                    {/* </NavLink> */}
+                    </Link>
                 </h1>
             </div>
             <div className="Nav-container" style={styleNav}>
                     <div className="Nav-item-1">
-                        {/* <NavLink to="/About" className="Nav-link-about"> */}
+                        <Link href="#About">
                             About
-                        {/* </NavLink> */}
+                        </Link>
                     </div>
                     <div className="Nav-item-2">
-                        {/* <NavLink to="/White Paper" className="Nav-link-white-paper"> */}
+                        <Link href="#whitepaper">
                             White Paper
-                        {/* </NavLink> */}
+                        </Link>
                     </div>
                     <div className="Nav-item-3">
-                        {/* <NavLink to="/Tokenmics" className="Nav-link-tokenmics"> */}
+                        <Link href="#ourtransaction">
                             Tokenmics
-                        {/* </NavLink> */}
+                        </Link>
                     </div>
                     <div className="Nav-item-4">
-                        {/* <NavLink to="/Roadmap" className="Nav-link-roadmap"> */}
+                        <Link href="#ourteam">
                             Roadmap
-                        {/* </NavLink> */}
+                        </Link>
                     </div>
                     <div className="Nav-item-5">
-                        {/* <NavLink to="/SignUp" className="Nav-link-sign-up"> */}
+                        <Link href="#signup">
                             Sign Up
-                        {/* </NavLink> */}
+                        </Link>
                     </div>
             </div>
             <div className="Sign-in-container">
-                <button className="Sign-in-button" style={styleBtn}>
-                    {/* <NavLink to="/SignIn" className="Sign-in-link"> */}
-                        Sign In
-                    {/* </NavLink> */}
+                <button className="Sign-in-button" style={styleBtn} >
+                        <Link href="#signin">
+                            Sign In
+                        </Link>
                 </button>
             </div>
         </div>

@@ -1,6 +1,7 @@
-import React from 'react'
+import React,{useState} from 'react'
 
 const Whitepaper = () => {
+    const [bgcolor, setbgcolor] = useState("white")
     return (
         <>
             <div>
@@ -10,10 +11,13 @@ const Whitepaper = () => {
                 <div style={{color:'white',fontWeight:'bold',}}>
                     <h2>Download Documentation</h2>
                 </div>
-                <div style={{display:'flex',flexDirection:'row',alignItems:'center'}}>
+                <div style={{display:'flex',flexDirection:'row',justifyContent:'center',cursor:'pointer',}}>
                     <img src="/images/logo-top.png" alt="" style={{width:'30%'}}/>
                 </div>
-                <div style={{color:'white',fontWeight:'bold',}}> <h4>Download lightpaper</h4>  </div>
+                <div style={{color:`${bgcolor}`,fontWeight:'bold',}}
+                 onMouseEnter={() => {console.log("Event:MouseEnter");setbgcolor("yellow");}}
+                   onMouseLeave={() => {console.log("Event:MouseLeave");setbgcolor("white")}}>
+                    <h4>Download lightpaper</h4>  </div>
             </div>
         </>
     )
