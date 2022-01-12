@@ -6,7 +6,9 @@ const Ourtransaction = () => {
     const [bgcolor2,setbgcolor2]=useState("#A020F0");
     return (
         <>
-            
+            <section style={{
+            paddingTop:'90px',paddingBottom:'160px',
+        }}>
            <div>
                <h1 style={{display:'flex',justifyContent:'Center',color:'white', paddingTop:'50px',fontWeight:'bold'}}>Our Transactions</h1>
            </div>
@@ -52,6 +54,7 @@ const Ourtransaction = () => {
                    </div>
                </div>
            </div>
+           </section>
         </>
     )
 }

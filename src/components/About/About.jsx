@@ -9,6 +9,9 @@ const About = () => {
 
     return (
         <>
+        <section style={{
+            paddingTop:'90px',paddingBottom:'110px',
+        }}>
             <div style={{display:'flex',
             flexDirection:'row', alignItems:'center',}}>
                 <div style={{display:'flex',justifyContent:'center',  width:'50%',}}>
@@ -34,11 +37,15 @@ const About = () => {
                     </div>
                 </div>
            </div>
+           </section>
+           <section style={{
+            paddingTop:'90px',paddingBottom:'110px',
+        }}>
            <div>
                <h1 style={{display:'flex',justifyContent:'Center',color:'white', paddingTop:'50px',fontWeight:'bold'}}>Our Services</h1>
            </div>
-           <div  style={{display:'flex',flexDirection:'row',justifyContent:'center',}}>
-                    <div style={{width:'20%', height:'10%', border:'none',backgroundColor:`${bgcolor1}`, cursor:'pointer',}}
+           <div  style={{display:'flex',flexDirection:'row',justifyContent:'center',paddingTop:'50px',}}>
+                    <div style={{width:'20%', height:'20%', border:'none',backgroundColor:`${bgcolor1}`, cursor:'pointer',}}
                     onMouseEnter={() => {console.log("Event:MouseEnter");setbgcolor1("blue");}}
                    onMouseLeave={() => {console.log("Event:MouseLeave");setbgcolor1("#A020F0")}}>
                         <div style={{padding:'10px',}}>
@@ -51,7 +58,7 @@ const About = () => {
                                 overall revenue</p>
                         </div>
                  </div>
-               <div style={{width:'20%',height:'10%', border:'none',backgroundColor:`${bgcolor2}`,marginLeft:'10px',
+               <div style={{width:'20%',height:'20%', border:'none',backgroundColor:`${bgcolor2}`,marginLeft:'10px',
                     cursor:'pointer',}}
                     onMouseEnter={() => {console.log("Event:MouseEnter");setbgcolor2("blue");}}
                     onMouseLeave={() => {console.log("Event:MouseLeave");setbgcolor2("#A020F0")}}>
@@ -65,7 +72,7 @@ const About = () => {
                         anywhere in the world</p>
                    </div>
                </div>
-               <div style={{width:'20%' ,height:'10%',border:'none',backgroundColor:`${bgcolor}`,marginLeft:'10px',}}
+               <div style={{width:'20%' ,height:'20%',border:'none',backgroundColor:`${bgcolor}`,marginLeft:'10px',}}
                     onMouseEnter={() => {console.log("Event:MouseEnter");setbgcolor("blue");}}
                     onMouseLeave={() => {console.log("Event:MouseLeave");setbgcolor("#A020F0")}}>
                     <div style={{padding:'10px',}}>
@@ -79,7 +86,7 @@ const About = () => {
                    </div>
                </div>
            </div>
-
+           </section>
         </>
     )
 }

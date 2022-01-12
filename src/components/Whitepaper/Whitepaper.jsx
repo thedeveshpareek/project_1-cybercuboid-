@@ -1,9 +1,13 @@
 import React,{useState} from 'react'
+import './white.css';
 
 const Whitepaper = () => {
-    const [bgcolor, setbgcolor] = useState("white")
+    const [Color, setColor] = useState("white");
     return (
         <>
+        <section style={{
+            paddingTop:'90px',paddingBottom:'110px',
+        }}>
             <div>
                 <div style={{color:'white',fontWeight:'bold',}}>
                     <h4>Whitepaper</h4>
@@ -11,14 +15,15 @@ const Whitepaper = () => {
                 <div style={{color:'white',fontWeight:'bold',}}>
                     <h2>Download Documentation</h2>
                 </div>
-                <div style={{display:'flex',flexDirection:'row',justifyContent:'center',cursor:'pointer',}}>
+                <div className='h' style={{display:'flex',flexDirection:'row',justifyContent:'center',cursor:'pointer',}}>
                     <img src="/images/logo-top.png" alt="" style={{width:'30%'}}/>
                 </div>
-                <div style={{color:`${bgcolor}`,fontWeight:'bold',}}
-                 onMouseEnter={() => {console.log("Event:MouseEnter");setbgcolor("yellow");}}
-                   onMouseLeave={() => {console.log("Event:MouseLeave");setbgcolor("white")}}>
+                <div style={{color:`${Color}`,fontWeight:'bold',}}
+                 onMouseEnter={() => {setColor("yellow");}}
+                   onMouseLeave={() => {setColor("white");}}>
                     <h4>Download lightpaper</h4>  </div>
             </div>
+            </section>
         </>
     )
 }
