@@ -61,13 +61,10 @@ font-weight: bold;
 
 const Footer = () => {
 return (
-	<Box style={{padding: "30px 20px",
+
+	<Box style={{padding: "30px 0",
 		background: "#01062C",
-		position: "absolute",
-		bottom: "0",
 		width: "100%",
-		
-		
 		}}>
 	
 	<Container>
@@ -126,14 +123,17 @@ return (
 			</FooterLink>
 		</Column>
 		</Row>
-		<Row style = {{display:"grid", gridgap:"1px"}}>
+		<div style = {{
+			display: "flex",
+			position: "right"
+		}}>
 			
 		    <SocialIcon url="https://linkedin.com/in/jaketrent" style={{ height: 25, width: 25 }} />
 			<SocialIcon url="https://Youtube.com/in/jaketrent" style={{ height: 25, width: 25 }} />
 			<SocialIcon url="https://Facebook.com/in/jaketrent" style={{ height: 25, width: 25 }} />
 			<SocialIcon url="https://Instagram.com/in/jaketrent" style={{ height: 25, width: 25 }} />
 			
-		</Row>
+		</div>
 	</Container>
     
 	</Box>

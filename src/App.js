@@ -12,6 +12,7 @@ function App() {
       <br/>
       <Whitepaper/>
       <br/>
+      <Footer />
     </div>
   );
 }
