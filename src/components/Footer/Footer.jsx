@@ -31,15 +31,15 @@ grid-template-columns: repeat(auto-fill,
 						minmax(195px, .5fr));
 grid-gap: 20px;
 
-@media (max-width: 1000px) {
-	grid-template-columns: repeat(auto-fill,
-						minmax(195px, .5fr));
-}
+// @media (max-width: 1000px) {
+// 	grid-template-columns: repeat(auto-fill,
+// 						minmax(195px, .5fr));
+// }
 `;
 
 export const FooterLink = styled.a`
 color: #fff;
-margin-bottom: 20px;
+margin-bottom: 10px;
 font-size: 12px;
 text-decoration: none;
 
@@ -60,7 +60,7 @@ font-weight: bold;
 
 const Footer = () => {
 return (
-	<Box style={{padding: "30px 0",
+	<Box style={{
 		background: "#01062C",
 		width: "100%",
 		}}>
