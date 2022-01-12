@@ -1,5 +1,5 @@
 import './App.css';
-import { Hero ,About, Ourtransaction, Whitepaper } from './components/Deafult';
+import { Hero ,About, Ourtransaction, Whitepaper ,Footer} from './components/Deafult';
 
 function App() {
   return (
@@ -11,6 +11,7 @@ function App() {
       <Ourtransaction/>
       <br/>
       <Whitepaper/>
+      <br/>
     </div>
   );
 }
