@@ -1,5 +1,4 @@
 import React,{useState} from 'react'
-import './white.css';
 
 const Whitepaper = () => {
     const [bgcolor, setbgcolor] = useState("white")
@@ -13,7 +12,7 @@ const Whitepaper = () => {
                     <h2>Download Documentation</h2>
                 </div>
                 <div style={{display:'flex',flexDirection:'row',justifyContent:'center',cursor:'pointer',}}>
-                    <img className='h' src="/images/logo-top.png" alt="" style={{width:'20%'}}/>
+                    <img src="/images/logo-top.png" alt="" style={{width:'30%'}}/>
                 </div>
                 <div style={{color:`${bgcolor}`,fontWeight:'bold',}}
                  onMouseEnter={() => {console.log("Event:MouseEnter");setbgcolor("yellow");}}
