@@ -10,7 +10,7 @@ const Ourtransaction = () => {
            <div>
                <h1 style={{display:'flex',justifyContent:'Center',color:'white', paddingTop:'50px',fontWeight:'bold'}}>Our Transactions</h1>
            </div>
-           <div  style={{display:'flex',flexDirection:'row',justifyContent:'center',}}>
+           <div  style={{display:'flex',flexDirection:'row',justifyContent:'center', paddingBottom:'60px',}}>
                     <div style={{width:'20%', height:'10%', border:'none',backgroundColor:`${bgcolor1}`, cursor:'pointer',}}
                     onMouseEnter={() => {console.log("Event:MouseEnter");setbgcolor1("blue");}}
                    onMouseLeave={() => {console.log("Event:MouseLeave");setbgcolor1("#A020F0")}}>
