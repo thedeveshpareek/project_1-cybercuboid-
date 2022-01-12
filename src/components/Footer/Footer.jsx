@@ -60,7 +60,7 @@ font-weight: bold;
 
 const Footer = () => {
 return (
-	<Box style={{padding: "30px 0",
+	<Box style={{
 		background: "#01062C",
 		width: "100%",
 		}}>
