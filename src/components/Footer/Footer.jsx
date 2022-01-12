@@ -28,12 +28,12 @@ margin-left: 60px;
 export const Row = styled.div`
 display: grid;
 grid-template-columns: repeat(auto-fill,
-						minmax(185px, 1fr));
+						minmax(185px, .5fr));
 grid-gap: 20px;
 
 @media (max-width: 1000px) {
 	grid-template-columns: repeat(auto-fill,
-						minmax(185px, 1fr));
+						minmax(185px, .5fr));
 }
 `;
 
@@ -123,13 +123,21 @@ return (
 		</Row>
 		<div style = {{
 			display: "flex",
-			position: "right"
-		}}>
+			justifyContent:"space-around"
 			
-		    <SocialIcon url="https://linkedin.com/in/jaketrent" style={{ height: 25, width: 25 }} />
-			<SocialIcon url="https://Youtube.com/in/jaketrent" style={{ height: 25, width: 25 }} />
-			<SocialIcon url="https://Facebook.com/in/jaketrent" style={{ height: 25, width: 25 }} />
-			<SocialIcon url="https://Instagram.com/in/jaketrent" style={{ height: 25, width: 25 }} />
+		}}>
+            <div>
+				<Heading>PROJECT</Heading>
+			</div> 
+			<div>
+				<h4>project @ 2022 all rights</h4>
+			</div>
+			<div>
+		    <SocialIcon url="https://linkedin.com" style={{ height: 35, width: 35, margin:"5px" }}  />
+			<SocialIcon url="https://youtube.com" style={{ height: 35, width: 35, margin:"5px" }} />
+			<SocialIcon url="https://facebook.com" style={{ height: 35, width: 35, margin:"5px" }} />
+			<SocialIcon url="https://instagram.com" style={{ height: 35, width: 35, margin:"5px" }} />
+			</div>
 			
 		</div>
 	</Container>
