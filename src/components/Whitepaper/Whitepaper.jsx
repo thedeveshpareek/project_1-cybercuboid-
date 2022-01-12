@@ -15,8 +15,8 @@ const Whitepaper = () => {
                 <div style={{color:'white',fontWeight:'bold',}}>
                     <h2>Download Documentation</h2>
                 </div>
-                <div className='h' style={{display:'flex',flexDirection:'row',justifyContent:'center',cursor:'pointer',}}>
-                    <img src="/images/logo-top.png" alt="" style={{width:'30%'}}/>
+                <div  style={{display:'flex',flexDirection:'row',justifyContent:'center',cursor:'pointer',}}>
+                    <img className='h' src="/images/logo-top.png" alt="" style={{width:'30%'}}/>
                 </div>
                 <div style={{color:`${Color}`,fontWeight:'bold',}}
                  onMouseEnter={() => {setColor("yellow");}}
