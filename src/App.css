@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  position: relative;
+  overflow-y: auto;
 }
 
 .App-logo {
@@ -35,4 +37,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.footer {
+  bottom: auto;
 }
