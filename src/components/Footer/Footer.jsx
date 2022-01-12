@@ -4,10 +4,9 @@ import { SocialIcon } from 'react-social-icons';
 
 
 export const Box = styled.div`
-
-@media (max-width: 1000px) {
-	padding: 70px 30px;
-}
+	@media (max-width: 768px) {
+		padding: 20px;
+	}
 `;
 
 export const Container = styled.div`
@@ -61,13 +60,9 @@ font-weight: bold;
 
 const Footer = () => {
 return (
-	<Box style={{padding: "30px 20px",
+	<Box style={{padding: "30px 0",
 		background: "#01062C",
-		position: "absolute",
-		bottom: "0",
 		width: "100%",
-		
-		
 		}}>
 	
 	<Container>

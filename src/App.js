@@ -1,17 +1,18 @@
 import './App.css';
-import { Hero ,About, Ourtransaction, Whitepaper ,Footer} from './components/Deafult';
+import { Hero ,About, Ourtransaction, Whitepaper,Footer} from './components/Deafult';
 
 function App() {
   return (
     <div className="App">
-      <Hero />
+      <Hero id="hero" />
       <br/>
-      <About/>
+      <About id="about" />
       <br/>
-      <Ourtransaction/>
+      <Ourtransaction id="ourtransaction" />
       <br/>
-      <Whitepaper/>
+      <Whitepaper id="whitepaper" />
       <br/>
+      <Footer id="footer" className="footer" />
     </div>
   );
 }

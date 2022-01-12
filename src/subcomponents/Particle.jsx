@@ -2,32 +2,20 @@ import React from 'react'
 import Particles from 'react-particles-js'
 import styled from 'styled-components'
 
+import configLight from "../config/particlesjs-config-light.json";
 
 const Box = styled.div`
-background-image : url('images/banner.png');
-width: 100vw;
-height:100vh;
-position: relative;
-display: flex;
-justify-content: space-evenly;
-align-items: center;
+position: absolute;
+top:0;
+right:0;
+left:0;
+bottom:0;
+z-index:0;
 `
-
-const Particle = (props) => {
+const Particle = () => {
     return (
         <Box>
-            <Particles params={{
-                particles: {
-                    number: {
-                        value : props.value,
-                        density: {
-                            enable: true,
-                            value_area: props.value_area
-                        }
-                    },
-                },
-            }}
-            />
+            <Particles params={configLight}  style = {{position: 'absolute', top: 0, left: 0, width: '100%', height: '100%'}} />
         </Box>
     )
 }
