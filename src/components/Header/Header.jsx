@@ -51,7 +51,7 @@ function Header() {
         <div className="header" style={styleDiv}>
             <div className="Logo-container" style={LogoStyle}>
                 <h1 className="Logo">
-                    <Link1 href="#Hero">
+                    <Link1 >
                         Project
                     </Link1>
                 </h1>
