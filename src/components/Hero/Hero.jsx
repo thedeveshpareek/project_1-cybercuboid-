@@ -30,8 +30,8 @@ const StyleHead = {
 const Hero = () => {
     return (
         <div className="hero" style={styleDiv} id='Home'>
-            {/* <Particle /> */}
             <Header style={StyleHead}/>
+            {/* <Particle /> */}
             <div className="hero-text-container" style={StyleText} >
                 <div className="hero-text-1">
                     <h1 className="hero-text-1-h1">
