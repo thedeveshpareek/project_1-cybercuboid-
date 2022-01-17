@@ -7,7 +7,7 @@ const Whitepaper = () => {
         <>
         <section style={{
             paddingTop:'90px',paddingBottom:'110px',
-        }}>
+        }} id='whitepaper'>
             <div>
                 <div style={{color:'white',fontWeight:'bold',}}>
                     <h4>Whitepaper</h4>

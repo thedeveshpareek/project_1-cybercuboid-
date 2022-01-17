@@ -4,17 +4,17 @@ import { Hero ,About, Ourtransaction, Whitepaper,Footer,Tokendistribution} from 
 function App() {
   return (
     <div className="App">
-      <Hero id="hero" />
+      <Hero />
       <br/>
-      <About id="about" />
+      <About />
       <br/>
-      <Whitepaper id="whitepaper" />
+      <Whitepaper/>
       <br/>
       <Tokendistribution/>
       <br/>
-      <Ourtransaction id="ourtransaction" />
+      <Ourtransaction />
       <br/>
-      <Footer id="footer" className="footer" />
+      <Footer className="footer" />
     </div>
   );
 }

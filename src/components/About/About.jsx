@@ -11,7 +11,7 @@ const About = () => {
         <>
         <section style={{
             paddingTop:'90px',paddingBottom:'110px',
-        }}>
+        }} id='About'>
             <div style={{display:'flex',
             flexDirection:'row', alignItems:'center',}}>
                 <div style={{display:'flex',justifyContent:'center',  width:'50%',}}>

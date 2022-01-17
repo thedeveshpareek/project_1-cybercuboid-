@@ -3,7 +3,7 @@ import React from 'react'
 const Tokendistribution = () => {
     return (
         <>
-           <div>
+           <div id='Tokenmics'>
                <div style={{color:'white',fontWeight:"bold"}}> 
                     <h3>Token Distribution</h3>
                </div>.

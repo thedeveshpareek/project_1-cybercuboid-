@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 const Link1 = styled(Link)`
 color: #fff;
@@ -51,41 +51,41 @@ function Header() {
         <div className="header" style={styleDiv}>
             <div className="Logo-container" style={LogoStyle}>
                 <h1 className="Logo">
-                    <Link1 >
+                    <Link1 to="Home" smooth={true} duration={500} >
                         Project
                     </Link1>
                 </h1>
             </div>
             <div className="Nav-container" style={styleNav}>
                     <div className="Nav-1">
-                        <Link1 activeClass="active" to="#About" spy={true} smooth={true} offset={-70} duration={500}>
+                        <Link1 to="About" smooth={true} duration={500}>
                             About
                         </Link1>
                     </div>
                     <div className="Nav-item-2">
-                        <Link1 activeClass="active" to="#whitepaper" spy={true} smooth={true} offset={-70} duration={500}>
+                        <Link1 to="whitepaper" smooth={true} duration={500}>
                             White Paper
                         </Link1>
                     </div>
                     <div className="Nav-item-3">
-                        <Link1 activeClass="active" to="#Tokenmics" spy={true} smooth={true} offset={-70} duration={500}>
+                        <Link1 to="Tokenmics" smooth={true} duration={500}>
                             Tokenmics
                         </Link1>
                     </div>
                     <div className="Nav-item-4">
-                        <Link1 activeClass="active" to="#Roadmap" spy={true} smooth={true} offset={-70} duration={500}>
+                        <Link1 to="Roadmap" smooth={true} duration={500}>
                             Roadmap
                         </Link1>
                     </div>
                     <div className="Nav-item-5">
-                        <Link1 activeClass="active" to="#Team" spy={true} smooth={true} offset={-70} duration={500}>
+                        <Link1 to="#" smooth={true} duration={500}>
                             Sign Up
                         </Link1>
                     </div>
             </div>
             <div className="Sign-in-container">
                 <button className="Sign-in-button" style={styleBtn} >
-                        <Link1 activeClass="active" to="#Team" spy={true} smooth={true} offset={-70} duration={500}>
+                        <Link1 to="#" smooth={true} duration={500}>
                             Sign In
                         </Link1>
                 </button>

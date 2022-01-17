@@ -28,7 +28,7 @@ const StyleHead = {
 
 const Hero = () => {
     return (
-        <div className="hero" style={styleDiv}>
+        <div className="hero" style={styleDiv} id='Home'>
             {/* <Particle /> */}
             <Header style={StyleHead}/>
             <div className="hero-text-container" style={StyleText} >
