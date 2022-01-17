@@ -2,7 +2,7 @@ import React,{useState} from 'react'
 import './white.css';
 
 const Whitepaper = () => {
-    const [Color, setColor] = useState("white");
+    const [bgColor, setbgColor] = useState('#FFFFFF');
     return (
         <>
         <section style={{
@@ -18,10 +18,11 @@ const Whitepaper = () => {
                 <div  style={{display:'flex',flexDirection:'row',justifyContent:'center',cursor:'pointer',}}>
                     <img className='h' src="/images/logo-top.png" alt="" style={{width:'30%'}}/>
                 </div>
-                <div style={{color:`${Color}`,fontWeight:'bold',}}
-                 onMouseEnter={() => {setColor("yellow");}}
-                   onMouseLeave={() => {setColor("white");}}>
-                    <h4>Download lightpaper</h4>  </div>
+                <div style={{color:`${bgColor}`,fontWeight:'bold', cursor:"pointer",}}
+                 onMouseEnter={() => {setbgColor("#FFFF00");}}
+                 onMouseLeave={() => {setbgColor("#FFFFFF");}}>
+                    <h4>Download lightpaper</h4> 
+                 </div>
             </div>
             </section>
         </>

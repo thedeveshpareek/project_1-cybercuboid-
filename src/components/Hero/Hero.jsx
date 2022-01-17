@@ -19,7 +19,8 @@ const StyleText = {
     flex : 'center',
     flexDirection: 'column',
     justifyContent: 'center',
-    marginTop: '70px',
+    marginTop: '100px',
+    paddingTop:'100px',
 }
 
 const StyleHead = {

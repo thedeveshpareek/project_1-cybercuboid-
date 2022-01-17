@@ -28,8 +28,8 @@ const Ourtransaction = () => {
                  </div>
                <div style={{width:'20%',height:'20%', border:'none',backgroundColor:`${bgcolor2}`,marginLeft:'10px',
                     cursor:'pointer',}}
-                    onMouseEnter={() => {console.log("Event:MouseEnter");setbgcolor2("blue");}}
-                    onMouseLeave={() => {console.log("Event:MouseLeave");setbgcolor2("#A020F0")}}>
+                    onMouseEnter={() => {setbgcolor2("blue");}}
+                    onMouseLeave={() => {setbgcolor2("#A020F0")}}>
                         <div style={{padding:'10px', justifyItems:'center',}}>
                         <img src='/images/svg-3.svg' alt="" style={{width:'80%',}}/>
                         </div>

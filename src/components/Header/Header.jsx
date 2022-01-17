@@ -19,7 +19,11 @@ const styleDiv = {
     display: 'flex',
     justifyContent: 'space-around',
     alignItems: 'center',
-    postion: 'fixed',
+    position:'fixed',
+    zIndex:'0',
+    width:'100%',
+    cursor:'pointer',
+   
 }
 
 const LogoStyle = {
@@ -47,8 +51,10 @@ const styleBtn = {
 }
 
 function Header() {
+        
     return (
-        <div className="header" style={styleDiv}>
+        <div className="header fixed-top"  style={styleDiv}>
+        
             <div className="Logo-container" style={LogoStyle}>
                 <h1 className="Logo">
                     <Link1 to="Home" smooth={true} duration={500} >
@@ -90,6 +96,7 @@ function Header() {
                         </Link1>
                 </button>
             </div>
+            
         </div>
     )
 }
