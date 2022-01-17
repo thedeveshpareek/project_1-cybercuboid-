@@ -1,11 +1,7 @@
 const Particlesjsconfig={
   particles: {
     number: {
-      value: 58,
-      density: {
-        enable: true,
-        value_area: 400.8530152163807
-      }
+      value: 160
     },
     color: {
       value: "#ffffff"
@@ -18,43 +14,38 @@ const Particlesjsconfig={
       },
       polygon: {
         nb_sides: 5
-      },
-      image: {
-        src: "",
-        width: 100,
-        height: 100
       }
     },
     opacity: {
-      value: 0.5371430403899501,
-      random: false,
+      value: 1,
+      random: true,
       anim: {
-        enable: false,
+        enable: true,
         speed: 1,
-        opacity_min: 0.1,
+        opacity_min: 0,
         sync: false
       }
     },
     size: {
-      value: 16.03412060865523,
+      value: 3,
       random: true,
       anim: {
         enable: false,
-        speed: 40,
-        size_min: 0.1,
+        speed: 4,
+        size_min: 0.3,
         sync: false
       }
     },
     line_linked: {
-      enable: true,
-      distance: 112.2388442605866,
-      color: "#ffffff",
-      opacity: 0.2886141709557941,
-      width: 1
+      enable: false,
+      distance: 128.27296486924183,
+      color: "#be1414",
+      opacity: 0.4649894976510016,
+      width: 3.687847739990702
     },
     move: {
       enable: true,
-      speed: 22.44776885211732,
+      speed: 1,
       direction: "none",
       random: true,
       straight: false,
@@ -62,17 +53,17 @@ const Particlesjsconfig={
       bounce: false,
       attract: {
         enable: true,
-        rotateX: 2084.43567912518,
-        rotateY: 3046.4829156444935
+        rotateX: 721.5354273894853,
+        rotateY: 881.8766334760375
       }
     }
   },
   interactivity: {
-    detect_on: "window",
+    detect_on: "canvas",
     events: {
       onhover: {
         enable: true,
-        mode: "repulse"
+        mode: "bubble"
       },
       onclick: {
         enable: true,
@@ -84,18 +75,18 @@ const Particlesjsconfig={
       grab: {
         distance: 400,
         line_linked: {
-          opacity: 0.8390780013491065
+          opacity: 1
         }
       },
       bubble: {
-        distance: 400,
-        size: 40,
-        duration: 2,
-        opacity: 8,
+        distance: 255.80432187492372,
+        size: 16.241544246026905,
+        duration: 2.842270243054708,
+        opacity: 0,
         speed: 3
       },
       repulse: {
-        distance: 200,
+        distance: 400,
         duration: 0.4
       },
       push: {
@@ -106,7 +97,7 @@ const Particlesjsconfig={
       }
     }
   },
-  retina_detect: false
+  retina_detect: true
 };
 
 export default Particlesjsconfig;
