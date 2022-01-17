@@ -2,7 +2,7 @@ import React from 'react'
 import Particles from 'react-particles-js'
 import styled from 'styled-components'
 
-import configLight from "../config/particlesjs-config.json";
+import Particlesjsconfig from "../config/Particlesjsconfig";
 
 const Box = styled.div`
 position: absolute;
@@ -15,9 +15,9 @@ z-index:0;
 const Particle = () => {
     return (
         <Box>
-            <Particles params={configLight} />
+            <Particles id="tsparticles"  params={Particlesjsconfig} />
         </Box>
     )
-}
+};
 
-export default Particle
+export default Particle;

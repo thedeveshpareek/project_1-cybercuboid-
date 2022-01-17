@@ -11,8 +11,10 @@
 .header {
   @media screen and (max-width: 768px) {
     width: 80%;
-    position: absolute;
+    position: -webkit-sticky;
     top: 0;
     left: 0;
   }
+  position: sticky;
+  position: -webkit-sticky;
 }

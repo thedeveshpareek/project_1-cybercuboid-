@@ -36,8 +36,8 @@ const styleNav = {
 }
 
 const styleBtn = {
-    backgroundColor: 'wheat',
-    color: '#fff',
+    backgroundColor: 'red',
+    color: 'red',
     border: 'none',
     padding: '15px',
     borderRadius: '20px',
